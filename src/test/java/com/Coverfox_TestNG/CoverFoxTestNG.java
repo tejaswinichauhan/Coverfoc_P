@@ -137,7 +137,8 @@ public class CoverFoxTestNG extends Base{
 		Assert.assertEquals(numfromText, numfromCards,"TC failed, numbers are not matching");
 		 Thread.sleep(3000);
 		Reporter.log("TC passed",true);
-  
+        Reporter.log("Hi",true);
+        Reporter.log("Good afternoon",true);
   }
   
   
